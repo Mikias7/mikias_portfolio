@@ -16,28 +16,33 @@ export default function AboutSection(){
                         </div>
                         
                         <p className="text-lg leading-relaxed" style={{ color: '#6F6C72' }}>
-                        I'm a recent computer science graduate with a passion for creating impactful software. 
-                        My journey in tech started with curiosity about how things work and evolved into a dedication 
-                        to building solutions that make a difference.
+                        I’m a computer science major with over a year of internship experience building full-stack and AI-driven software 
+                        that solves real problems. I’ve worked across machine learning, computer vision, robotics, and frontend systems, 
+                        automating robotic testing, preventing elder-care falls, and turning research ideas into production-ready tools.
                         </p>
                         
                         <p className="text-lg leading-relaxed" style={{ color: '#6F6C72' }}>
-                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
-                        projects, or sharing knowledge with the developer community. I believe in continuous learning 
-                        and the power of collaboration.
+                       Outside of my core development work, I’m usually exploring new technologies, refining side projects, or 
+                       figuring out how to make complex systems simpler, faster, and more reliable. I believe the best 
+                       software is built through curiosity, iteration, and a bit of stubborn problem-solving.
                         </p>
         
                         <div className="flex gap-4 pt-4">
-                        <a href="#" className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
+                        <a href="https://github.com/Mikias7" target='_blank' className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
                             style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}>
                             <Github size={24} />
                         </a>
-                        <a href="#" className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
+                        <a href="https://www.linkedin.com/in/mikias-tadele/" target='_blank' className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
                             style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}>
                             <Linkedin size={24} />
                         </a>
-                        <a href="#" className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
-                            style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}>
+                        <a
+                            href="mailto:mikias7t@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-3 rounded-lg hover:scale-110 transition-all duration-300"
+                            style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}
+                            >
                             <Mail size={24} />
                         </a>
                         </div>

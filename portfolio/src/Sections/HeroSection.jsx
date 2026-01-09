@@ -12,24 +12,24 @@ export default function HeroSection(){
                     style={{ backgroundColor: '#E11D48', animationDelay: '1s' }} />
                 
                 <div className="max-w-4xl text-center z-10 space-y-8">
-                    <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4" 
+                    {/* <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-4" 
                     style={{ backgroundColor: '#FFF1F2', border: '1px solid #FED7AA' }}>
                     <Sparkles size={16} style={{ color: '#E11D48' }} />
                     <span className="text-sm font-medium" style={{ color: '#6F6C72' }}>
                         Available for opportunities
                     </span>
-                    </div>
+                    </div> */}
                     
                     <h1 className="text-7xl md:text-8xl font-bold tracking-tight leading-none" 
                     style={{ fontFamily: 'Georgia, serif', color: '#2D2A2E' }}>
-                    Software
-                    <br />
-                    <span style={{ color: '#E11D48' }}>Engineer</span>
+                    Mikias  
+                    {/* <br /> */}
+                    <span style={{ color: '#E11D48' }}>    Tadele,</span>
                     </h1>
                     
                     <p className="text-xl md:text-2xl max-w-2xl mx-auto leading-relaxed" style={{ color: '#6F6C72' }}>
-                    Recent graduate passionate about building elegant solutions to complex problems. 
-                    Specializing in full-stack development with a love for clean code and user experience.
+                    Aspiring software engineer focused on full-stack development and AI/ML, building efficient end-to-end systems. 
+                    I turn complex ideas into clean, scalable, and intelligent products.
                     </p>
         
                     <div className="flex gap-4 justify-center pt-4">
