@@ -2,6 +2,12 @@ import { useState, useEffect } from 'react'
 
 import Nav from './components/Nav';
 import HeroSection from './Sections/HeroSection';
+import AboutSection from './Sections/AboutSection';
+import SkillsSection from './Sections/SkillsSection';
+import ProjectsSection from './Sections/ProjectsSection';
+import EducationSection from './Sections/EducationSection';
+import ContactSection from './Sections/ContactSection';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -32,6 +38,18 @@ function App() {
       <Nav />
 
       <HeroSection />
+
+      <AboutSection />
+
+      <SkillsSection />
+
+      <ProjectsSection />
+
+      <EducationSection />
+
+      <ContactSection />
+
+      <Footer />
 
     </div>
   )

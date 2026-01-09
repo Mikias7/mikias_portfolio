@@ -1,0 +1,63 @@
+import { Github, Linkedin, Mail, ExternalLink, Code2, Sparkles } from 'lucide-react';
+
+export default function AboutSection(){
+
+    return (
+        <div>
+            <section id="about" className="py-32 px-6" style={{ backgroundColor: '#FFFFFF' }}>
+                <div className="max-w-6xl mx-auto">
+                    <div className="grid md:grid-cols-2 gap-16 items-center">
+                    <div className="space-y-6">
+                        <div className="inline-block">
+                        <h2 className="text-5xl font-bold mb-2" style={{ fontFamily: 'Georgia, serif', color: '#E11D48' }}>
+                            About Me
+                        </h2>
+                        <div className="h-1 rounded-full" style={{ backgroundColor: '#F97316' }} />
+                        </div>
+                        
+                        <p className="text-lg leading-relaxed" style={{ color: '#6F6C72' }}>
+                        I'm a recent computer science graduate with a passion for creating impactful software. 
+                        My journey in tech started with curiosity about how things work and evolved into a dedication 
+                        to building solutions that make a difference.
+                        </p>
+                        
+                        <p className="text-lg leading-relaxed" style={{ color: '#6F6C72' }}>
+                        When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                        projects, or sharing knowledge with the developer community. I believe in continuous learning 
+                        and the power of collaboration.
+                        </p>
+        
+                        <div className="flex gap-4 pt-4">
+                        <a href="#" className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
+                            style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}>
+                            <Github size={24} />
+                        </a>
+                        <a href="#" className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
+                            style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}>
+                            <Linkedin size={24} />
+                        </a>
+                        <a href="#" className="p-3 rounded-lg hover:scale-110 transition-all duration-300" 
+                            style={{ backgroundColor: '#FFF1F2', color: '#E11D48' }}>
+                            <Mail size={24} />
+                        </a>
+                        </div>
+                    </div>
+        
+                    <div className="relative">
+                        <div className="aspect-square rounded-3xl overflow-hidden relative border-[3px]" 
+                        style={{ backgroundColor: '#FFF1F2', borderColor: '#FED7AA' }}>
+                        <div className="absolute inset-0 flex items-center justify-center">
+                            <Code2 size={120} className="opacity-20" style={{ color: '#E11D48' }} />
+                        </div>
+                        <div className="absolute inset-0 bg-gradient-to-br opacity-20" 
+                            style={{ background: 'linear-gradient(to bottom right, #E11D48, #F97316)' }} />
+                        </div>
+                        <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full blur-2xl opacity-30" 
+                        style={{ backgroundColor: '#F97316' }} />
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    )
+}
