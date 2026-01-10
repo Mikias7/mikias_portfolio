@@ -10,7 +10,7 @@ export default function Nav(){
                     Portfolio
                 </div>
                 <div className="flex gap-8">
-                    {['About', 'Skills', 'Projects', 'Contact'].map((item) => (
+                    {['About', 'Education','Skills', 'Projects', 'Contact'].map((item) => (
                     <a 
                         key={item}
                         href={`#${item.toLowerCase()}`}
