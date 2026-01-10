@@ -41,15 +41,17 @@ function App() {
 
       <AboutSection />
 
+      <EducationSection />
+
       <SkillsSection />
 
       <ProjectsSection />
 
-      <EducationSection />
+      {/* <EducationSection /> */}
 
       <ContactSection />
 
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   )

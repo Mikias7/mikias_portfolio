@@ -4,7 +4,7 @@ export default function AboutSection(){
 
     return (
         <div>
-            <section id="about" className="py-32 px-6" style={{ backgroundColor: '#FFFFFF' }}>
+            <section id="about" className="py-32 px-6" style={{ backgroundColor: '#FAF7F5' }}>
                 <div className="max-w-6xl mx-auto">
                     <div className="grid md:grid-cols-2 gap-16 items-center">
                     <div className="space-y-6">
