@@ -49,17 +49,35 @@ export default function AboutSection(){
                     </div>
         
                     <div className="relative">
-                        <div className="aspect-square rounded-3xl overflow-hidden relative border-[3px]" 
-                        style={{ backgroundColor: '#FFF1F2', borderColor: '#FED7AA' }}>
-                        <div className="absolute inset-0 flex items-center justify-center">
+                        <div
+                            className="aspect-square rounded-3xl overflow-hidden relative border-[3px]"
+                            style={{ backgroundColor: '#FFF1F2', borderColor: '#FED7AA' }}
+                        >
+                            {/* Photo */}
+                            <img
+                            src="/img.png"        // path or URL
+                            alt="Profile"
+                            className="absolute inset-0 w-full h-full object-cover"
+                            />
+
+                            {/* Icon overlay */}
+                            {/* <div className="absolute inset-0 flex items-center justify-center">
                             <Code2 size={120} className="opacity-20" style={{ color: '#E11D48' }} />
+                            </div> */}
+
+                            {/* Gradient overlay */}
+                            {/* <div
+                            className="absolute inset-0 opacity-20"
+                            style={{ background: 'linear-gradient(to bottom right, #E11D48, #F97316)' }}
+                            /> */}
                         </div>
-                        <div className="absolute inset-0 bg-gradient-to-br opacity-20" 
-                            style={{ background: 'linear-gradient(to bottom right, #E11D48, #F97316)' }} />
+
+                        {/* Glow blob */}
+                        <div
+                            className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full blur-2xl opacity-30"
+                            style={{ backgroundColor: '#F97316' }}
+                        />
                         </div>
-                        <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full blur-2xl opacity-30" 
-                        style={{ backgroundColor: '#F97316' }} />
-                    </div>
                     </div>
                 </div>
             </section>

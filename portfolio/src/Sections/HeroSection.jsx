@@ -22,9 +22,9 @@ export default function HeroSection(){
                     
                     <h1 className="text-7xl md:text-8xl font-bold tracking-tight leading-none" 
                     style={{ fontFamily: 'Georgia, serif', color: '#2D2A2E' }}>
-                    Mikias  
+                    MIKIAS  
                     {/* <br /> */}
-                    <span style={{ color: '#E11D48' }}>    Tadele,</span>
+                    <span style={{ color: '#E11D48' }}>    TADELE,</span>
                     </h1>
                     
                     <p className="text-xl md:text-2xl max-w-2xl mx-auto leading-relaxed" style={{ color: '#6F6C72' }}>

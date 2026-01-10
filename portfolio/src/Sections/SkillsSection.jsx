@@ -3,11 +3,57 @@ import { Github, Linkedin, Mail, ExternalLink, Code2, Sparkles } from 'lucide-re
 export default function SkillsSection(){
 
     const skills = {
-    "Languages": ["JavaScript", "Python", "Java", "TypeScript", "C++", "SQL"],
-    "Frontend": ["React", "Vue.js", "Tailwind CSS", "HTML/CSS", "Redux"],
-    "Backend": ["Node.js", "Express", "Django", "REST APIs", "GraphQL"],
-    "Tools & Others": ["Git", "Docker", "AWS", "MongoDB", "PostgreSQL", "Jest"]
-  };
+  "Languages": [
+    "JavaScript",
+    "TypeScript",
+    "Python",
+    "Java",
+    "C++",
+    "R",
+    "Swift",
+    "Kotlin",
+    "SQL (MySQL)"
+  ],
+  "Frontend": [
+    "React.js",
+    "Three.js",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "Ant Design (antd)"
+  ],
+  "Backend & Cloud": [
+    "Node.js",
+    "Firebase"
+  ],
+  "Mobile Development": [
+    "Android (Jetpack Compose)",
+    "iOS (Swift, Xcode)"
+  ],
+  "Data, AI & Robotics": [
+    "Machine Learning",
+    "Computer Vision",
+    "Robotics"
+  ],
+  "DevOps & Systems": [
+    "Git",
+    "CI/CD",
+    "Linux",
+    "WSL"
+  ],
+  "Tools & Platforms": [
+    "Android Studio",
+    "Xcode",
+    "Blender",
+    "Unity"
+  ],
+  "Workflow & Collaboration": [
+    "Agile",
+    "Jira",
+    "Confluence"
+  ]
+};
+
   
     return (
         <div>
